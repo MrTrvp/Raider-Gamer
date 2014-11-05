@@ -1,0 +1,112 @@
+body {
+	color: #000;
+	font-size: 13px;
+	margin: 0;
+	padding: 0;
+
+	background-image: url("../other/wallpaper.jpg");
+	background-position: center; 
+}
+
+hr {
+	border-top-style: solid;
+	border-top-color: #e0dfdf;
+	border-bottom-style: solid;
+	border-bottom-color: #fefefe;
+	border-width: 1px 0;
+	margin: 20px 0;
+}
+
+.logoContainer {
+	width: 247px;
+	text-align: center;
+	margin: 60px auto 0;
+	padding: 15px;
+}
+
+.formContainer {
+	margin: 20px;
+	background-color: #fff;
+    border-radius: 4px;
+
+    border: 1.4px solid #1052B4;
+
+	min-width: 40%;
+	max-width: 400px;
+	padding: 10px;
+}
+
+.loginForm {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.button {
+    box-shadow: inset 0px -2px 0px 0px #006aeb;
+    margin-top: -10px;
+    background-color: #3d94f6;
+    border-radius: 4px;
+    vertical-align: middle;
+    border: 1px solid #337fed;
+    color: #FFF;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 8px;
+    margin-left: 4px;
+}
+
+.button:hover {
+    border: 1px solid #1052B4;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.mainContainer {
+	top: 50%;
+}
+
+.borderContainer {
+    background-color: #F0F0F0;
+	border-radius: 3px;
+	vertical-align: middle;
+	border: 1px solid #DDDDDD;
+	margin: 10px;
+	padding: 10px;
+}
+
+.center1 {
+	max-width: 400px;
+	min-width: 0%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.center2 {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ul.links {
+    list-style-type: none;
+    text-align: left;
+}
+
+.codedBy {
+	text-align: right;
+	margin-right: 10px;
+	color: #CCCCCC;
+}
+
+.codedBy a {
+	font-weight: bold;
+	color: #3D94F6;
+}
+
+.codedBy a:hover{
+    text-decoration: none;
+}

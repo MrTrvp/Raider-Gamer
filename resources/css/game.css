@@ -1,0 +1,30 @@
+body {
+    background-color: #000;  
+    margin: 0;
+}
+
+.menuStrip {
+    background-color: #eee;
+    background-image: url(../other/menuStrip.png);
+    background-repeat: repeat-x;
+    max-height: 49px;
+    height: 49px;
+}
+
+.menuStrip img {
+    width: 100%
+}
+
+.menuImage {
+    position: top;
+    vertical-align: middle;
+    display: table-cell;
+    height: 49px;
+}
+
+.gameFrame {
+    background-color: black;
+    border: none;
+    height: 95%;
+    width: 100%;
+}

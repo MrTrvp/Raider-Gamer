@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Raider Gamer</title>
+	    
+	    <script async src="resources/js/login.js"></script>
+	    
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	</head>
+	<body>
+		<div class="center1">
+			<div class="mainContainer">
+				<div class="logoContainer">
+					<img src="resources/other/logo.png">
+				</div>
+				
+				<div class="center2">
+					<div class="formContainer">
+						<form action="" method="post" class="loginForm">
+							<input name="udid" type="text" class="UDID" placeholder="UDID">
+							<button type="button" class="button" onclick="randomString();">R</button>
+
+							<br><br>
+
+							<select name="gameName">
+								{% for game in games %}
+									<option value="{{ game.Name }}">{{ game.Name }}</option>
+								{% endfor %}
+							</select>
+
+							<br><br>
+
+							<button type="submit" class="button">Login</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="formContainer">
+					<div class="center2">
+						<b>Instructions</b>
+					</div>
+					
+					<div class="borderContainer">
+						<b>How to use:</b>
+						<ul>
+							<li>If you do not already have an account:
+								<ul>
+									<li>Create a unique UDID using the "R" button.</li>
+								</ul>
+							</li>
+							<li>If you have an existing account:
+								<ul>
+									<li>Paste your previously generated UDID.</li>
+								</ul>
+							</li>
+
+							<li>Select your Storm8 game from the drop-down menu.</li>
+							<li>Click the Login button.</li>
+						</ul>
+
+						<br>
+
+						<b>How to transfer accounts:</b>
+						<ul>
+							<li>Reach level two.</li>
+							<li>Go to the settings page.</li>
+							<li>Navigate to the Storm8 Tab.</li>
+							<li>Click "Start/Resume Transfer.</li>
+							<li>Select "New Device".</li>
+							<li>Input your Storm8 credentials.</li>
+							<li>Click "Transfer".</li>
+						</ul>
+
+						<br>
+
+						<b>Apple Users:</b>
+						<ul>
+							<li>Navigate to the Settings app.</li>
+							<li>Select Safari Settings.</li>
+							<li>Go to Always Accept.</li>
+							<li>Select Always.</li>
+							<li>Click "Clear Cookies and Data".</li>
+						</ul>
+
+						<br>
+
+						<b>Other Links:</b>
+						<div class="center2">
+							<ul class="links">
+								<li>
+									<span>Use our </span><a href="resources/other/RaiderGamer.apk" target="_blank"> Android App!</a>
+								</li>
+								<li>
+									<span>Need to contact us? Reach us at </span><a href="http://www.palringo.com/en/us/invite/ATz2rg/L8hp" target="_blank">[s8 games]</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="codedBy">Coded by - <a href="http://www.hackforums.net/member.php?action=profile&uid=1676753" target="_blank">Mr. Trvp</a></div>
+				</div>
+			</div>
+		</div>
+		
+		<link rel="stylesheet" href="resources/css/bootstrap.min.css">
+		<link rel="stylesheet" href="resources/css/login.css">
+	</body>
+</html>

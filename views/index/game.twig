@@ -1,0 +1,42 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Raider Gamer</title>
+
+        <script async src="resources/js/login.js"></script>
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    </head>
+    <body>
+        <center>
+            <div class="menuStrip">
+                <div class="menuImage" onclick="switchTabs('home', '{{ gameSC }}');">
+                    <img class="home" src="https://im.storm8.com/images/tab/tab_home_selected.png">
+                </div>
+
+                <div class="menuImage" onclick="switchTabs('missions', '{{ gameSC }}');">
+                    <img class="mission" src="https://im.storm8.com/images/tab/tab_mission.png">
+                </div>
+
+                <div class="menuImage" onclick="switchTabs('fight', '{{ gameSC }}');">
+                    <img class="fight" src="https://im.storm8.com/images/tab/tab_fight.png">
+                </div>
+
+                <div class="menuImage" onclick="switchTabs('equipment', '{{ gameSC }}');">
+                    <img class="item" src="https://im.storm8.com/images/tab/tab_item.png">
+                </div>
+
+                <div class="menuImage" onclick="switchTabs('group', '{{ gameSC }}');">
+                    <img class="group" src="https://im.storm8.com/images/tab/tab_group.png">
+                </div>
+            </div>
+
+            <iframe class="gameFrame" src="{{ gameUrl }}" scrolling="yes">
+                If you are seeing this, it means that your browser does not support iframes.
+            </iframe>
+        </center>
+        
+        <link rel="stylesheet" href="resources/css/game.css">
+    </body>
+</html>
