@@ -4,11 +4,11 @@
 
 	class Game
 	{
-		public $Name = "";
-		public $Salt = "";
-		public $ShortC = "";
-		public $Version = "";
-		public $UrlFormat = "";
+		public $Name = '';
+		public $Salt = '';
+		public $ShortC = '';
+		public $Version = '';
+		public $UrlFormat = '';
 
 		public function __construct($name, $salt, $shortC, $version)
 		{
